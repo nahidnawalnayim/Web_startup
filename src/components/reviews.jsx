@@ -3,7 +3,7 @@ import React from 'react'
 const Reviews = () => {
   return (
     <>
-          <div className="review" id="reviews">
+          <div className="review pl-8" id="reviews">
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-12 mx-auto">
           <h1
@@ -35,7 +35,7 @@ const Reviews = () => {
                   beforehand,but they guided us through the process very
                   well.
                 </p>
-                <a className="inline-flex items-center">
+                <a className="inline-flex items-center pt-20">
                   <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-gray-900"
                       >Rbuchmann</span
@@ -105,7 +105,7 @@ const Reviews = () => {
                   together into a cohesive website that suited our needs.Would
                   work again with them.
                 </p>
-                <a className="inline-flex items-center pt-8">
+                <a className="inline-flex items-center pt-14">
                   <span className="flex-grow flex flex-col pl-4 pt-4">
                     <span className="title-font font-medium text-gray-900"
                       >Serissae</span
@@ -139,7 +139,7 @@ const Reviews = () => {
                   Fantastic service as always.Their communication and quality of
                   work are consistently high.
                 </p>
-                <a className="inline-flex items-center pt-8">
+                <a className="inline-flex items-center pt-20">
                   <span className="flex-grow flex flex-col pl-4 pt-4">
                     <span className="title-font font-medium text-gray-900 pt-20"
                       >Stacy Russel</span

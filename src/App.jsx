@@ -1,6 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
@@ -12,6 +11,7 @@ import ServiceDetails from "./pages/serviceDetails";
 import Try from "./try";
 import Layout from "./layout";
 import Footer from "./components/footer";
+import Form from "./components/form";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -23,10 +23,12 @@ function App() {
        <Service />
       <Whyus />
       <Reviews />  */}
-
+<Navbar />
         <Routes>
           <Route path="/" element={<Layout />} />
+          <Route path="/hero" element={<Hero />} />
           <Route exact path="/services" element={<ServiceDetails />} />
+          <Route exact path="/form" element={<Form />} />
     
         </Routes>
         <Footer />

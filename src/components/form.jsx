@@ -17,10 +17,11 @@ export default function Form() {
       <>
 
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-          <h1 className="text-2xl w-96">MESSAGE US TO GET STARTED</h1>
   
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form className="space-y-6" action="https://formsubmit.co/73e96e206481261da679bdb49d9d6385" method="POST" onSubmit={onSubmit}>
+          <h1 className="text-2xl w-96 text-center pb-10">MESSAGE US TO GET STARTED</h1>
+            <form className="space-y-6 mb-32" action="https://formsubmit.co/73e96e206481261da679bdb49d9d6385" method="POST" onSubmit={onSubmit}>
+       
               <div>
                 <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                   Email address
@@ -31,6 +32,22 @@ export default function Form() {
                     name="email"
                     type="email"
                     autoComplete="email"
+                    required
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  />
+                </div>
+              </div>
+  
+              <div>
+                <label htmlFor="number" className="block text-sm font-medium leading-6 text-gray-900">
+                 Phone Number
+                </label>
+                <div className="mt-2">
+                  <input
+                    id="number"
+                    name="number"
+                    type="number"
+                    
                     required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />

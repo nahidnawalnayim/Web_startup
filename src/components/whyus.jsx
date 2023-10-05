@@ -12,7 +12,7 @@ const Whyus = () => {
         <div className="flex flex-wrap w-full">
           <img
             className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
-            src="/src/assets/asanew.png"
+            src="https://res.cloudinary.com/derxrzqhj/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1696485451/c2beg2rellx5s7ve7kbd.png"
             alt="step"
           />
 

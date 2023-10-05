@@ -7,15 +7,17 @@ import Service from './components/service'
 import Whyus from './components/whyus'
 import Reviews from './components/reviews'
 import Form from './components/form';
+import Chat from './components/chat';
 const Layout = () => {
   return (
     <div>
+      
         <Navbar />
         <Hero /> 
        <Service />
       <Whyus />
       <Reviews />
-     
+     <Chat />
         <Outlet />
     </div>
   )

@@ -13,15 +13,15 @@ const product = {
   ],
   images: [
     {
-      src: '/src/assets/web.png',
+      src: 'https://res.cloudinary.com/derxrzqhj/image/upload/v1696485453/kzka2lu07kruf1v06qbi.png',
       alt: 'Two each of gray, white, and black shirts laying flat.',
     },
     {
-      src: '/src/assets/mobile.png',
+      src: 'https://res.cloudinary.com/derxrzqhj/image/upload/v1696485453/hk9uyjj28nfb7rqoc9yn.png',
       alt: 'Model wearing plain black basic tee.',
     },
     {
-      src: '/src/assets/team.jpg',
+      src: 'https://res.cloudinary.com/derxrzqhj/image/upload/v1696486164/yd9rn3i4wqdaac4stros.jpg',
       alt: 'Model wearing plain gray basic tee.',
     },
     {
@@ -121,7 +121,7 @@ export default function ServiceDetails() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[2])
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" style={{fontFamily: "Lato"}} >
       <div className="pt-6">
         <nav aria-label="Breadcrumb">
           <ol role="list" className="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -193,10 +193,10 @@ export default function ServiceDetails() {
           </div>
 
           {/* Options */}
-          <div className="mt-4 lg:row-span-3 lg:mt-0">
-            <h2 className="text-sm font-medium text-gray-900 font-serif">Guidelines and Policies</h2>
+          <div className="mt-4 lg:row-span-3 lg:mt-0" >
+            <h2 className="text-lg font-bold text-gray-900" style={{fontFamily: "Lato"}}>Guidelines and Policies</h2>
 
-            <form className="mt-2 space-y-3 font-serif">
+            <form className="mt-2 space-y-3 " style={{fontFamily: "Lato"}}>
      <p>{product.policy[0].a}.</p>
      <p>{product.policy[1].b}</p>
      <p>{product.policy[2].c}</p>
@@ -214,7 +214,7 @@ export default function ServiceDetails() {
 
               <div className="space-y-6">
                 <p className="text-base text-gray-900 text-justify">
-                'Revolutionize Your Business with Our ExpertiseIn an era where digital presence is not just an advantage but a necessity, our comprehensive technology solutions are here to elevate your business to unprecedented heights. Here at <span className='font-bold'>SCRIPTERS IT</span>, we blend innovation with mastery to deliver digital solutions that not only meet but exceed your expectations. From visually stunning websites to state-of-the-art mobile apps and insightful data science solutions, we are your one-stop destination for a dynamic and transformative digital experience. Web Design & Development Responsive Designs: Our web designs are not just visually appealing but are built with a user-first approach, ensuring seamless experience on any device.Customized Solutions: Every business is unique, and we understand that. Our web development strategies are tailored to meet your specific business goals and customer needs.
+                Revolutionize Your Business with Our ExpertiseIn an era where digital presence is not just an advantage but a necessity, our comprehensive technology solutions are here to elevate your business to unprecedented heights. Here at <span className='font-bold'>SCRIPTERS IT</span>, we blend innovation with mastery to deliver digital solutions that not only meet but exceed your expectations. From visually stunning websites to state-of-the-art mobile apps and insightful data science solutions, we are your one-stop destination for a dynamic and transformative digital experience. Web Design & Development Responsive Designs: Our web designs are not just visually appealing but are built with a user-first approach, ensuring seamless experience on any device.Customized Solutions: Every business is unique, and we understand that. Our web development strategies are tailored to meet your specific business goals and customer needs.
     
                 </p>
               </div>

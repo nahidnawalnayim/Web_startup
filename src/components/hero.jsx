@@ -32,7 +32,7 @@ const Hero = () => {
               'lineHeight': '1.2'}}
             
           >
-            We help to convert clients Problems to business.
+            We help to convert clients idea to Software.
             <div id="typewriter"></div>
           </h1>
           <hr className="w-12 h-1 bg-orange-500 rounded-full mt-8 ml-3" />
@@ -40,14 +40,15 @@ const Hero = () => {
             className="text-gray-800 text-base leading-relaxed mt-8 font-semibold"
           ></p>
           <div
-            className="get-app flex space-x-5 mt-10 justify-center md:justify-start"
+            className="get-app flex space-x-5 mt-6 justify-center md:justify-start"
           >
-            <button
+        
+            {/* <button
               className="w-32 rounded-3xl bg-orange-600 hover:bg-[#5409d6] transition delay-75 text-white font-semibold text-base tracking-normal brightness-125 drop-shadow-xl md:w-56 h-16"
               style={{'fontFamily': 'Libre Baskerville, serif'}}
             >
-              Learn More
-            </button>
+              Learn more
+            </button> */}
           </div>
         </div>
 
@@ -59,7 +60,7 @@ const Hero = () => {
         >
           <img
             style={{'transform': 'translate(30px, -30px)'}}
-            src="/src/assets/jud-mackrill-Of_m3hMsoAA-unsplash.jpg"
+            src="https://res.cloudinary.com/derxrzqhj/image/upload/v1696485454/arhmtybrxhf4ymhurkwt.jpg"
             className="rounded-lg w-80 md:w-full m-4"
           />
         </div>
