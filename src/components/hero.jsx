@@ -58,11 +58,11 @@ const Hero = () => {
           data-aos="fade-left"
           data-aos-duration="3000"
         >
-          <img
+          {/* <img
             style={{'transform': 'translate(30px, -30px)'}}
             src="https://res.cloudinary.com/derxrzqhj/image/upload/v1696485454/arhmtybrxhf4ymhurkwt.jpg"
             className="rounded-lg w-80 md:w-full m-4"
-          />
+          /> */}
         </div>
       </div>
     </div>
