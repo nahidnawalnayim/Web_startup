@@ -25,7 +25,7 @@ const product = {
       alt: 'Model wearing plain gray basic tee.',
     },
     {
-      src: '/src/assets/team.jpg',
+      src: 'https://res.cloudinary.com/derxrzqhj/image/upload/v1696485454/gazarxfrwkxjgtp7x69y.jpg',
       alt: 'Model wearing plain white basic tee.',
     },
   ],
