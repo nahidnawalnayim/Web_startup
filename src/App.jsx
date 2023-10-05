@@ -25,7 +25,7 @@ function App() {
       <Reviews />  */}
 <Navbar />
         <Routes>
-          <Route path="/" element={<Layout />} />
+          <Route path="https://scripterstech.netlify.app" element={<Layout />} />
           <Route path="/hero" element={<Hero />} />
           <Route exact path="/services" element={<ServiceDetails />} />
           <Route exact path="/form" element={<Form />} />
